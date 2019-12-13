@@ -8,6 +8,8 @@
          "type": "java",
          "name": "CodeLens (Launch) - App",
          "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "console": "internalConsole",
          "mainClass": "org.robey.gitpod_demo.App",
          "projectName": "gitpod-demo"
       },
